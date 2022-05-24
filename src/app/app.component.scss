@@ -1,0 +1,46 @@
+.contect-navbar {
+    display: flex;
+    height: 96px;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+
+    &__title {
+        font-size: 30px;
+    }
+
+    &__items {
+        width: calc(100vh - 30vh);
+
+        &__ul {
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+
+            a {
+                cursor: pointer;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.item-select {
+    border-bottom: 3.5px solid rgba(189, 193, 248, 0.692);
+}
+
+.content-router {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    padding-top: 96px;
+}
